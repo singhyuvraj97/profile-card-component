@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body{
+  background-image: url("./images/bg-pattern-top.svg"),url("./images/bg-pattern-bottom.svg");
+  background-position-x: -25%;
+  background-position-y: -25%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.card{
+  margin: 100px auto;
+  max-width: 25%;
+  min-width: 300px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  text-transform: capitalize;
+  box-shadow: -5px 5px 30px 7px rgba(0, 255, 255, 0.89),5px -5px 30px 7px rgba(8, 226, 215, 0.3);
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  
+}
+
+.cardHead{
+  border-radius: 20px 20px 0px 0px;
+}
+
+.cardHead img{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.cardBody{
+  padding-top: 78px;
+  padding-bottom: 28px;
+  position: relative;
+}
+
+.cardBody img{
+  display: block;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  top: -40%;
+  left: 30%;
+  right: 40%;
+}     
+
+#cardProfileName{
+  color: hsl(229, 23%, 23%);
+}
+
+#cardProfileAge{
+  color: hsl(227, 10%, 46%);
+}
+
+hr{
+  border: 0.5px solid hsl(0, 0%, 59%);
+}
+
+.cardFoot{
+  padding-top: 28px;
+  padding-bottom: 28px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.cardFootBox h2{
+  color:hsl(229, 23%, 23%);
+}
+
+.cardFootBox p{
+  font-size: 10px;
+}
